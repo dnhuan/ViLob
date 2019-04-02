@@ -1,0 +1,26 @@
+{
+  "name": "vilob",
+  "version": "1.0.0",
+  "description": "ViLob - Tìm lobby CS:GO dành cho người Việt",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "globaloffensive": "^2.0.1",
+    "steam-totp": "^2.1.0",
+    "steam-user": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cd backend/src & nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnhuan/ViLob.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnhuan/ViLob/issues"
+  },
+  "homepage": "https://github.com/dnhuan/ViLob#readme"
+}
